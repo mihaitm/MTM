@@ -1,0 +1,21 @@
+[33mcommit f1eb352804372b17d09f6c31ba94e3fbcdd974e0[m
+Author: Mihai Tudor Marcu <mihai.tudor.marcu@gmail.com>
+Date:   Wed Oct 19 16:12:28 2016 +0000
+
+    bugfix for login
+
+
+[33mcommit 238ae8dd9fb7a19dc394699f16a4d78108e97571[m
+Author: Mihai Tudor Marcu <mihai.tudor.marcu@gmail.com>
+Date:   Wed Oct 19 15:44:29 2016 +0000
+
+    first commit
+
+ create mode 100644 index.html
+ create mode 100644 models/Article.js
+ create mode 100644 models/Articles.js
+ create mode 100644 models/User.js
+ create mode 100644 pages/articles.html
+ create mode 100644 pages/login.html
+ create mode 100644 views/articles.js
+ create mode 100644 views/login.js
