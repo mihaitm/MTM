@@ -1,10 +1,26 @@
 /*global $*/
 $(window).ready(function(){
-    var usersContainer = $(".js-login");
-    var user = new User();
+   $(".login-btn").on("click", function(){
+       
+   
+    var users = new Users();
+    var email = $("[name='email-value']").val();
+    var password = $("[name='password']").val();
+    var usersDef = users.login(email, password);
+    usersDef.done(listUser);
+   });
+    function listUser(){
+        window.location.href = "https://mihaitm-mihaitm.c9users.io/Personal/C22&C23&C24_app/pages/articles.html";
+    }
+});
+
+
+// $(window).ready(function(){
+//     var usersContainer = $(".js-login");
+//     var user = new User();
     
-    loginUser();
-    loginUser().done(window.location.assign("https://mihaitm-mihaitm.c9users.io/Personal/C22&C23&C24_app/pages/articles.html"));
+//     loginUser();
+//     loginUser().done(window.location.assign("https://mihaitm-mihaitm.c9users.io/Personal/C22&C23&C24_app/pages/articles.html"));
 
 // function loginUser(){
 //         var userModels = user.models;
