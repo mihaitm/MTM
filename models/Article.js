@@ -6,5 +6,6 @@ function Article(options){
 }
 
 Article.prototype.update = function(){
+    // changes were made here
     //Do an AJAX request to https://mihaitm-mihaitm.c9users.io/Personal/C22&C23&C24_app/articles/update
 };
